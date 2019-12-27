@@ -8,7 +8,7 @@ class ImageModel {
 
   ImageModel(this.id, this.title, this.url);
   ImageModel.fromJson(inJson){
-    id = inJson.id;
+    id = inJson['id'];
     title = inJson['title'];
     url = inJson['url'];
   }
